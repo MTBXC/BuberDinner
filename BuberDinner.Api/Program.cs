@@ -6,11 +6,11 @@ using Microsoft.AspNetCore.Mvc.Infrastructure;
 var builder = WebApplication.CreateBuilder(args);
 {
     builder.Services
+        .AddPresentation()
         .AddApplication()
         .AddInfrastructure();
     
-    builder.Services.AddControllers();
-    builder.Services.AddSingleton<ProblemDetailsFactory, BuberDinnerProblemDetailsFactory>();
+    
 }
 var app = builder.Build();
 {

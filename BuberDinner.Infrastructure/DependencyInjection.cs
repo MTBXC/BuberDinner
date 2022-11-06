@@ -1,5 +1,4 @@
 using BuberDinner.Application.Common.Interfaces.Perisistence;
-using BuberDinner.Application.Services.Authentication;
 using BuberDinner.Infrastructure.Persistence;
 using Microsoft.Extensions.DependencyInjection;
 
